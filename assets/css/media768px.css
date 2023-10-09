@@ -1,0 +1,29 @@
+
+@media screen and (max-width: 768px) {
+    .wrapper, footer {
+        padding-inline: 80px;
+    }
+
+    header article {
+        max-width: 410px;
+    }
+
+    header article h1, .footer__form h2 {
+        font-size: 2rem;
+    }
+
+    header article p, .footer__nav ul  {
+        font-size: 1.25rem;
+    }
+
+    .footer__nav {
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    label, input[type="submit"] {
+        font-size: 1.125rem;
+    }
+    
+}
