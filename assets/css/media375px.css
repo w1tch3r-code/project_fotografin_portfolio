@@ -14,9 +14,6 @@
     figure > div {
         opacity: 1;
         position: static;
-        transition: none;
-        height: 0;
-        transform: translate(0, 0);
         padding-block: 25px;
     }
 
